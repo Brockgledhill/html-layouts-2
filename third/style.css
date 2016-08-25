@@ -1,0 +1,64 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.sameSize {
+  width: 100%;
+  height: 8%;
+  background: #353535;
+}
+
+.header {
+  padding: 2% 2% 2% 4%;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.link {
+  margin-right: 5%;
+  display:inline-block;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  display: inline-block;
+
+}
+
+.spot {
+  float:left;
+}
+
+.leftDiv {
+  width: 50%;
+  height: 100%;
+}
+
+.rightDiv {
+  width: 50%;
+  height: 100%;
+  padding: 3%
+}
+
+.picture {
+  width: 100%;
+  height: 175px;
+  background: url("http://www.deloreanipsum.com/assets/img/delorean.png") center center;
+  background-size: cover;
+  margin-bottom: 5%;
+}
+
+.footer {
+  margin-bottom: 0;
+}

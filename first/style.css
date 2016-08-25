@@ -1,0 +1,73 @@
+html, body {
+  margin: 0 auto;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 15%;
+  background: transparent;
+}
+
+.box {
+  display: inline-block;
+  width: 31%;
+  height: 90%;
+}
+
+.red {
+  background: red;
+}
+
+.blue {
+  background: blue;
+  margin: 0px 3.5%;
+}
+
+.grey {
+  background: grey;
+}
+
+.middle {
+  width: 100%;
+  height: 45%;
+  background: blue;
+  margin: 0 0 3.5% 0;
+}
+
+.middleRed {
+  width: 31%;
+  height: 100%;
+  background: red;
+}
+
+.text {
+  padding: 15px 0;
+}
+
+.footer {
+  width: 100%;
+  height: 15%;
+  background: blue;
+  margin-bottom: 10px;
+}
+
+.footerRed{
+  width: 31%;
+  height: 100%;
+  background: red;
+  float: right;
+  padding: 0px 20px;
+}
+
+.footerGrey {
+  width: 100%s;
+  height: 100%;
+  background: grey;
+}
